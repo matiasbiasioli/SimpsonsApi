@@ -10,16 +10,18 @@ main {
     flex-direction: column;
     align-items: center;
 }
-h1 {
+.imgTitle {
     margin-top: 2rem;
     text-align: center;
+} img {
+    width: 20vw;
 }
 .input{
     width: 30vw;
 }
 .section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: auto;
     text-align: center;
 }
@@ -33,4 +35,7 @@ h1 {
 }
 .characterParagraph {
     font-size: 1rem;
+}
+.selectContainer {
+    text-align: center;
 }
